@@ -1,0 +1,6 @@
+I thought this assignment went well. I have not used python in about a year so I had to refresh my memory with the syntax. 
+Other than that I did not experience any issues or concerns.I did not encounter any challenges with this assignment and I thought the requirements were
+clear and simple.While i have not used unit testing with python before it was very similar to javas unit testing system so I transitioned to it seamlessly
+For my test cases I just picked out different types of triangles that would potentially work for a variety of options if not accounted for in the original code.
+For example an equilateral triangle should not return as an isoceles even though there are two sides that are the same length. I thought this assignment was
+a good example of how to utilize unit testing in python.
