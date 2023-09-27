@@ -1,6 +1,8 @@
 version: 2.1
+
 orbs:
-  python: circleci/python@2.0.1
+  python: circleci/python@2.1.1
+
 jobs:
   build-and-test:
     docker:
@@ -9,9 +11,8 @@ jobs:
       - checkout
       - run:
           command: |
-            pip install unittest-xml-reporting
-            python -m unittest TestTriangle
-
+            pip install pytest
+            pytest --junitxml=test-results/junit.xml TestTriangle.py
       - store_test_results:
           path: test-results
 
