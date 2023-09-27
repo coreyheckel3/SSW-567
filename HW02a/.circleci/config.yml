@@ -9,6 +9,7 @@ jobs:
       - checkout
       - run:
           command: |
+            pip install unittest-xml-reporting
             python -m unittest TestTriangle
 
       - store_test_results:
